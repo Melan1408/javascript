@@ -1,5 +1,5 @@
-userFirstNumber= prompt("Enter first number for math operation").trim();
-userSecondNumber= prompt("Enter second number for math operation").trim();
+userFirstNumber = prompt("Enter first number for math operation").trim();
+userSecondNumber = prompt("Enter second number for math operation").trim();
 
 addResult = +userFirstNumber + +userSecondNumber;
 subResult = userFirstNumber - userSecondNumber;
