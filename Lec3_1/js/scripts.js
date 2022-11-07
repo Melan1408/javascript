@@ -9,7 +9,7 @@ if (parseInt(userAnswer)===4)
 
 userAnswer = prompt(`Is the sun a star or planet?`);
 
-if (userAnswer && userAnswer.trim().toLowerCase()==="star")
+if (  userAnswer.toLowerCase()==="star")
 {
     userPoints +=10;
 }

@@ -1,3 +1,4 @@
+debugger
 let firstNumber = parseFloat(prompt(`Input please first number`));
 let secondNumber = parseFloat(prompt(`Input please second number`));
 let thirdNumber =  parseFloat(prompt(`Input please third number`));
