@@ -2,8 +2,8 @@ let firstNumber = 0;
 let secondNumber = 0;
 let stepInLoop = 0;
 
-while(true)
-{
+while(true) {
+
     firstNumber = parseInt(prompt("Input first number"));
     secondNumber = parseInt(prompt("Input second number, it must be bigger than first number"));
     stepInLoop = parseInt(prompt("Input step in loop, it must be smaller than second number - first number"));
