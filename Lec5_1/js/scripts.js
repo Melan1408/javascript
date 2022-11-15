@@ -1,21 +1,17 @@
-let validInputIsOk = false;
 let arrayLength = 0;
 let numberArray = [];
 
-while (!validInputIsOk) {
+while (!(arrayLength && !isNaN(arrayLength))) {
     arrayLength = parseInt(prompt(`Input length of array`));
-    arrayLength && !isNaN(arrayLength)
-        ? validInputIsOk = true
-        : alert(`Length of array must have number format, please try again`);
+    if (!(arrayLength && !isNaN(arrayLength)))
+        alert(`Length of array must have number format, please try again`);
 }
 
 for (var i = 0; i < arrayLength; i++) {
-    validInputIsOk = false;
-    while (!validInputIsOk) {
+    while (!(numberArray[i] && !isNaN(numberArray[i]))) {
         numberArray[i] = parseInt(prompt(`Input ${i+1} number of array`));
-        numberArray[i] && !isNaN(numberArray[i])
-            ? validInputIsOk = true
-            : alert(`${i+1} number of array must have number format, please try again`);
+        if (!(numberArray[i] && !isNaN(numberArray[i])))
+            alert(`${i+1} number of array must have number format, please try again`);
     }
 }
 
