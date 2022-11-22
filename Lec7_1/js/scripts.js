@@ -5,7 +5,7 @@ function removeElement(array, item) {
     if (index >= 0) array.splice(index, 1);
 }
 
-removeElement(array, "cat");
+removeElement(array,"cat");
 console.log(array);
 
 
