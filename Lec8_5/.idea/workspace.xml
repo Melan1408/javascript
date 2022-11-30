@@ -5,7 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lec7_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec7_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_1/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spades.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +83,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lec8_1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -105,6 +139,7 @@
       <workItem from="1669737600405" duration="772000" />
       <workItem from="1669746307798" duration="1197000" />
       <workItem from="1669747620198" duration="1343000" />
+      <workItem from="1669816900903" duration="4000" />
     </task>
     <servers />
   </component>

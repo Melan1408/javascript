@@ -5,7 +5,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lec7_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec7_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_2/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_3/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_4/images/spades.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec8_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/clubs.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/diamonds.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/hearts.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/jack.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/king.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/queen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec8_5/images/spades.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +135,7 @@
       <workItem from="1669190611710" duration="424000" />
       <workItem from="1669454003141" duration="826000" />
       <workItem from="1669651756692" duration="3395000" />
+      <workItem from="1669816906581" duration="27000" />
     </task>
     <servers />
   </component>
