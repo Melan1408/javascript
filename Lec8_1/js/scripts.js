@@ -3,7 +3,7 @@ const key = generateKey(16, characters);
 console.log(key);
 
 function generateKey(length, characters) {
-    let randomStringArray = [];
+    const randomStringArray = [];
     for (let i = 0; i < length; i++) {
         randomStringArray.push(characters[getRandomIndexFromStr(characters.length)]);
     }
