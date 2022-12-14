@@ -27,7 +27,7 @@ Array.prototype.heroesRender = function(path) {
                     <td>${item.name}</td>
                     <td>
                         <img src="images/${path}/${item.name.toLowerCase().replaceAll(" ","")}.svg" width="50" height="50">
-                    <td>
+                    </td>
                 </tr>
             `;
         })
@@ -36,8 +36,8 @@ Array.prototype.heroesRender = function(path) {
         <table>
             <thead>
 			    <tr>
-				    <th>Name</th>
-				    <th>Icon</th>
+			        <th>Name</th>
+			        <th>Icon</th>
 			    </tr>
 		    </thead>
 		    <tbody>
