@@ -35,14 +35,14 @@ Array.prototype.heroesRender = function(path) {
     document.write(`
         <table>
             <thead>
-			    <tr>
-			        <th>Name</th>
-			        <th>Icon</th>
-			    </tr>
-		    </thead>
-		    <tbody>
-		        ${tableRender}
-		    </tbody>
+                <tr>
+                    <th>Name</th>
+                    <th>Icon</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${tableRender}
+            </tbody>
         </table>
     `);
 };
