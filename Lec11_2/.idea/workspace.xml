@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="" />
+    <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Lec12_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec12_1/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lec12_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -114,6 +116,7 @@
       <workItem from="1671044674952" duration="613000" />
       <workItem from="1671567213195" duration="1996000" />
       <workItem from="1671569280657" duration="20000" />
+      <workItem from="1671866372963" duration="39000" />
     </task>
     <servers />
   </component>
