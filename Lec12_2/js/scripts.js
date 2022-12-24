@@ -66,9 +66,9 @@ function Product(category, type, price) {
 
     this.render = function () {
         return `<tr>
-	                <td><img src="images/${this.category}/${this.type}.svg" alt="${this.type}" width="50" height="50"></td>
-	                <td>${this.type}</td>
-	                <td>${this.price} USD</td>
+                    <td><img src="images/${this.category}/${this.type}.svg" alt="${this.type}" width="50" height="50"></td>
+                    <td>${this.type}</td>
+                    <td>${this.price} USD</td>
                 </tr>`;
     }
 }
