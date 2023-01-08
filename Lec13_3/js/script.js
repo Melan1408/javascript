@@ -170,10 +170,10 @@ class Admin extends User{
 		const coursesBlock = this.courses
 			.map(course => {
 				return `<div class="user__courses--course admin">
-							<p>Title: <b>${course.title}</b></p>
-							<p>Admin's score: <span class="${calculateGrade(gradation,course.score)}">${calculateGrade(gradation,course.score)}</span></p>
-							<p>Lector: <b>${course.lector}</b></p>
-							</div>`;
+					<p>Title: <b>${course.title}</b></p>
+					<p>Admin's score: <span class="${calculateGrade(gradation,course.score)}">${calculateGrade(gradation,course.score)}</span></p>
+					<p>Lector: <b>${course.lector}</b></p>
+				</div>`;
 			})
 			.join("");
 
@@ -190,10 +190,10 @@ class Lector extends User{
 		const coursesBlock = this.courses
 			.map(course => {
 				return `<div class="user__courses--course lector">
-							<p>Title: <b>${course.title}</b></p>
-							<p>Lector's score: <span class="${calculateGrade(gradation,course.score)}">${calculateGrade(gradation,course.score)}</span></p>
-							<p>Average student's score: <span class="${calculateGrade(gradation,course.studentsScore)}">${calculateGrade(gradation,course.studentsScore)}</span></p>
-						</div>`;
+					<p>Title: <b>${course.title}</b></p>
+					<p>Lector's score: <span class="${calculateGrade(gradation,course.score)}">${calculateGrade(gradation,course.score)}</span></p>
+					<p>Average student's score: <span class="${calculateGrade(gradation,course.studentsScore)}">${calculateGrade(gradation,course.studentsScore)}</span></p>
+				</div>`;
 			})
 			.join("");
 
