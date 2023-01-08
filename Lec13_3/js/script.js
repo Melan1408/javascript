@@ -139,8 +139,8 @@ class User {
 		const coursesBlock = this.courses
 			.map(course => {
 				return `<p class="user__courses--course ${this.role}">
-                    ${course.title} <span class="${calculateGrade(gradation,course.mark)}">${calculateGrade(gradation,course.mark)}</span>
-                </p>`;
+					${course.title} <span class="${calculateGrade(gradation,course.mark)}">${calculateGrade(gradation,course.mark)}</span>
+				</p>`;
 			})
 			.join("");
 
@@ -173,7 +173,7 @@ class Admin extends User{
 							<p>Title: <b>${course.title}</b></p>
 							<p>Admin's score: <span class="${calculateGrade(gradation,course.score)}">${calculateGrade(gradation,course.score)}</span></p>
 							<p>Lector: <b>${course.lector}</b></p>
-						</div>`;
+							</div>`;
 			})
 			.join("");
 
