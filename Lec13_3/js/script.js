@@ -217,6 +217,4 @@ function calculateGrade(gradations, grade) {
 	return "Grade is unknown";
 }
 
-document.write(`<div class="users">
-			${createUser(users)}
-		 </div>`);
+document.write(`<div class="users">${createUser(users)}</div>`);
