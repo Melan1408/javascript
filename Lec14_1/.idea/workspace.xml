@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec13_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec13_3/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lec14_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -58,12 +58,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="scripts.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/scripts.js" working-dir="$PROJECT_DIR$/js">
+    <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/script.js" working-dir="$PROJECT_DIR$/js">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.scripts.js" />
+        <item itemvalue="Node.js.script.js" />
       </list>
     </recent_temporary>
   </component>
@@ -116,12 +116,10 @@
       <workItem from="1671569301867" duration="249000" />
       <workItem from="1671866326378" duration="1815000" />
       <workItem from="1672748490450" duration="4018000" />
-      <workItem from="1672795040683" duration="2202000" />
-      <workItem from="1673019523445" duration="4112000" />
-      <workItem from="1673202528515" duration="9397000" />
-      <workItem from="1673247622766" duration="82000" />
-      <workItem from="1673247760002" duration="149000" />
-      <workItem from="1673248233828" duration="4000" />
+      <workItem from="1672795014415" duration="25000" />
+      <workItem from="1673205763395" duration="1922000" />
+      <workItem from="1673211903582" duration="114000" />
+      <workItem from="1673248239419" duration="6390000" />
     </task>
     <servers />
   </component>
