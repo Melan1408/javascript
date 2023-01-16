@@ -1,0 +1,8 @@
+table, tr, td {
+    border: 2px solid green;
+}
+td {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
