@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color:inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    cursor: pointer;
+    font-size: 45px;
+}
