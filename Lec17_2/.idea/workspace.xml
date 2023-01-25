@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec17_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_6/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lec17_1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -133,8 +133,7 @@
       <workItem from="1674504807831" duration="2696000" />
       <workItem from="1674507670944" duration="6139000" />
       <workItem from="1674592797943" duration="2439000" />
-      <workItem from="1674661516212" duration="7000" />
-      <workItem from="1674662489265" duration="600000" />
+      <workItem from="1674661523625" duration="2531000" />
     </task>
     <servers />
   </component>

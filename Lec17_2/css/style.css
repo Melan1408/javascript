@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color:inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+.container{
+    margin: 100px auto;
+    width: fit-content;
+    max-width: 1000px;
+    padding: 30px;
+    background: #F5F5FA;
+    border-radius: 12px;
+    position: relative;
+}
+
+img {
+    display: block;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 5px 5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+}
