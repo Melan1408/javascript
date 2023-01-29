@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lec17_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lec17_1/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_1/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lec17_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lec17_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec17_3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/HomeWork18_38" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -140,6 +135,9 @@
       <workItem from="1674661822352" duration="642000" />
       <workItem from="1674727387437" duration="3229000" />
       <workItem from="1674730798812" duration="16000" />
+      <workItem from="1674988697094" duration="4065000" />
+      <workItem from="1675014210337" duration="473000" />
+      <workItem from="1675015019826" duration="999000" />
     </task>
     <servers />
   </component>

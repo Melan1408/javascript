@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Readex+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lec17_5</title>
+</head>
+<body>
+<section><div class="categories"></div></section>
+<section><div class="category"></div></section>
+<section>
+    <div class="item">
+        <form action="#" method="post" class="form none">
+            <h2 class="title">Enter your data please</h2>
+            <input type="text" placeholder="Name" name="name" class="input" id="name" required>
+            <input type="text" placeholder="Surname" name="surname" class="input" id="surname" required>
+            <div class="address">
+                <select name="city" id="city">
+                    <option value="Odessa">Odessa</option>
+                    <option value="Dnipro">Dnipro</option>
+                    <option value="Donezk">Donezk</option>
+                </select>
+                <label for="address">Post address:</label>
+                <input type="text" name="post-office" id="address"  class="input" required>
+                <label for="count">Count:</label>
+                <input type="number" name="post-office" id="count" class="input" min="1" value="1" required>
+            </div>
+            <div class="payment">
+                <input type="radio" name="payment" id="сash" class="radio" checked>
+                <label for="сash">Сash payment</label>
+                <input type="radio" name="payment" id="card" class="radio">
+                <label for="card">Card</label>
+            </div>
+            <textarea placeholder="Comment" class="input textarea" id="comment"></textarea>
+            <button type="submit"><p>Make purchase</p></button>
+        </form>
+    </div>
+</section>
+<script src="js/script.js"></script>
+</body>
+</html>
