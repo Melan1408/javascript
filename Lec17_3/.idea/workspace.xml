@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lec17_3/images/laptop.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lec17_3/images/phone.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lec17_3/images/tablet.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lec17_3/images/watch.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/phone.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_1/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_1/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec17_2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_4/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec17_6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_6/index.html" afterDir="false" />
@@ -59,13 +56,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/California-main" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javascript\Lec17_3\images" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/script.js" working-dir="$PROJECT_DIR$/js">
@@ -144,7 +146,9 @@
       <workItem from="1674661523625" duration="2874000" />
       <workItem from="1674726686106" duration="422000" />
       <workItem from="1674727113302" duration="7000" />
-      <workItem from="1674955015464" duration="4000" />
+      <workItem from="1674933443371" duration="987000" />
+      <workItem from="1674954293250" duration="8939000" />
+      <workItem from="1674983341520" duration="1049000" />
     </task>
     <servers />
   </component>

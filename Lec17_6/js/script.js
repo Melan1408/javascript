@@ -40,7 +40,7 @@ function signUp() {
     const name = document.getElementById('name').value;
     const surname = document.getElementById('surname').value;
     const birthday = document.getElementById('birthday').value;
-    const gender = document.querySelector('input[name="gender"]:checked').id;
+    const gender = document.querySelector('.radio:checked').id;
     const city = document.getElementById('city').value;
     const address = document.getElementById('address').value;
     const languages = [...document.querySelectorAll('input[type="checkbox"]:checked')].map(item => { return item.id });

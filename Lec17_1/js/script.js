@@ -1,4 +1,4 @@
-const emojiArray = ['🤑', '🤠', '🤡', '😡', '🥶'];
+const emojiArray = ['🤑', '🤠', '🤡', '😡', '🥶', '😚'];
 
 class Emoji{
     constructor(score, picture) {
