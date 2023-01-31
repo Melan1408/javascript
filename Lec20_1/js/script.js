@@ -1,4 +1,5 @@
 const convertedData = [];
+const actions = ['data.json', 'data2.json'];
 let counter = 0;
 
 function getDataJson(method, actions, array, counter) {
@@ -23,4 +24,4 @@ function getDataJson(method, actions, array, counter) {
     };
 }
 
-getDataJson('GET', ['data.json', 'data2.json'], convertedData, counter);
+getDataJson('GET', actions, convertedData, counter);
