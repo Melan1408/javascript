@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Lec20_1/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Lec20_1/data2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data2.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec17_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_5/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lec20_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -61,7 +61,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\javascript\Lec17_3\images" />
+      <recent name="F:\javascript\Lec20_1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\javascript\Lec20_1" />
+      <recent name="F:\javascript\Lec20_1\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -138,15 +142,11 @@
       <workItem from="1674504807831" duration="2696000" />
       <workItem from="1674507670944" duration="6139000" />
       <workItem from="1674592797943" duration="2439000" />
-      <workItem from="1674661523625" duration="2874000" />
-      <workItem from="1674726686106" duration="422000" />
-      <workItem from="1674727113302" duration="7000" />
-      <workItem from="1674933443371" duration="987000" />
-      <workItem from="1674954293250" duration="8939000" />
-      <workItem from="1674983341520" duration="2045000" />
-      <workItem from="1674988838111" duration="7142000" />
-      <workItem from="1675013366313" duration="2944000" />
-      <workItem from="1675100414638" duration="574000" />
+      <workItem from="1674661516212" duration="7000" />
+      <workItem from="1674662489265" duration="600000" />
+      <workItem from="1674727121173" duration="128000" />
+      <workItem from="1675100424554" duration="7831000" />
+      <workItem from="1675196146733" duration="1719000" />
     </task>
     <servers />
   </component>
