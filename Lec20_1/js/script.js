@@ -10,12 +10,12 @@ function getDataJson(method, actions, array, counter) {
 
     xml.responseType = 'json';
     xml.onload = () => {
-        if (xml.status != 200) {
+        if (xml.status !== 200) {
             alert(`Ошибка ${xml.status}: ${xml.statusText}`);
             counter++;
         }
         else {
-            const response= xml.response.children;
+            const response = xml.response.children;
             array.push(response);
             counter++;
         }
