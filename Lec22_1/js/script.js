@@ -13,7 +13,7 @@ function renderComment(comments) {
         const pName = document.createElement('p');
         const pEmail = document.createElement('p');
         const pBody = document.createElement('p');
-        `Title: ${ item.body}`;
+
         pName.innerText = `Name: ${item.name}`;
         pEmail.innerText = `Email: ${item.email}`;
         pBody.innerText = `Comment: ${item.body}`;
