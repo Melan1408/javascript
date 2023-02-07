@@ -44,23 +44,22 @@ function renderPost(post) {
     divPost.append(button);
 
     button.addEventListener('click', () => {
-        makeRequest(`${API}/${input.value}/comments`, renderComment);
+        makeRequest(`${API}/${input.value}/comments`).then(data => renderComment(data));
     })
 }
 
-function makeRequest(link, render) {
-    fetch(link)
+function makeRequest(URL) {
+    return fetch(URL)
         .then((response) => {
             if (response.ok) {
                 return response.json();
             }
             throw new Error("Post not found");
         })
-        .then(json => render(json))
         .catch(error => alert(error))
 }
 
 form.addEventListener('submit', (e)=> {
     e.preventDefault();
-    makeRequest(`${API}/${input.value}`, renderPost);
+    makeRequest(`${API}/${input.value}`).then(data => renderPost(data));
 })
