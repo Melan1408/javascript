@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    color:inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+.div-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-container {
+    margin: 100px auto;
+    width: fit-content;
+    max-width: 1000px;
+    padding: 30px;
+    background: #F5F5FA;
+    border-radius: 12px;
+}
+
+.comment-container {
+    margin-top: 15px;
+}
+
+.comment-div {
+    border-radius: 12px;
+    padding: 15px;
+    background: antiquewhite;
+    margin-bottom: 10px;
+    border: 2px solid cadetblue;
+}
+
+.form-btn {
+   margin:0 15px 0 0;
+}
+
+button {
+    margin-top: 10px;
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.title{
+    font-size: 24px;
+    line-height: 18px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+input{
+    background: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+button{
+    padding: 8px 15px;
+    height: 36px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+}
+
+button p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+
+button:hover p{
+    color: black;
+}
+
+label {
+    margin-right: 10px;
+}
