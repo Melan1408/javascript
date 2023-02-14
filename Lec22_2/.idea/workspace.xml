@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec17_6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec17_6/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Lec22_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec22_1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +57,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javascript\Lec20_1" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\javascript\Lec20_1" />
+      <recent name="F:\javascript\Lec20_1\js" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="script.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/script.js" working-dir="$PROJECT_DIR$/js">
@@ -131,16 +140,18 @@
       <workItem from="1674392228715" duration="13000" />
       <workItem from="1674504807831" duration="2696000" />
       <workItem from="1674507670944" duration="6139000" />
-      <workItem from="1674592787099" duration="9000" />
-      <workItem from="1674661822352" duration="642000" />
-      <workItem from="1674727387437" duration="3229000" />
-      <workItem from="1674730798812" duration="16000" />
-      <workItem from="1674988697094" duration="4065000" />
-      <workItem from="1675014210337" duration="473000" />
-      <workItem from="1675015019826" duration="999000" />
-      <workItem from="1675788036270" duration="1514000" />
-      <workItem from="1675792385437" duration="1254000" />
-      <workItem from="1676033790016" duration="623000" />
+      <workItem from="1674592797943" duration="2439000" />
+      <workItem from="1674661516212" duration="7000" />
+      <workItem from="1674662489265" duration="600000" />
+      <workItem from="1674727121173" duration="128000" />
+      <workItem from="1675100424554" duration="7831000" />
+      <workItem from="1675196146733" duration="2075000" />
+      <workItem from="1675198330378" duration="47000" />
+      <workItem from="1675787749301" duration="6643000" />
+      <workItem from="1675795379171" duration="1047000" />
+      <workItem from="1675846435021" duration="53000" />
+      <workItem from="1675860089237" duration="688000" />
+      <workItem from="1676396414456" duration="6007000" />
     </task>
     <servers />
   </component>
