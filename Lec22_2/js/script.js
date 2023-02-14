@@ -1,9 +1,9 @@
-function getMoney(userData) {
+function getMoney(userData, bankData) {
     const willCheckBalance = confirm('Посмотреть баланс на карте?');
 
     return new Promise((resolve, reject) => {
         if(willCheckBalance) resolve(userData);
-        else reject(userData);
+        else reject({userData: userData, bankData: bankData});
     });
 }
 
@@ -32,8 +32,8 @@ function getCash(userData, bankData) {
     } while (availableCashForUser.indexOf(typeOfCash) === -1);
 
     const countOfCash = prompt(`Введите сумму снятия.`);
-    if(countOfCash > bankData[typeOfCash].max) console.log(`Введенная сумма больше допустимой. Максимальная сумма снятия:${bankData[typeOfCash].max}`);
-    else if(countOfCash < bankData[typeOfCash].min) console.log(`Введенная сумма меньше допустимой. Минимальная сумма снятия:${bankData[typeOfCash].min}`);
+    if(countOfCash > bankData[typeOfCash].max) console.log(`Введенная сумма больше допустимой. Максимальная сумма снятия:${bankData[typeOfCash].max}.`);
+    else if(countOfCash < bankData[typeOfCash].min) console.log(`Введенная сумма меньше допустимой. Минимальная сумма снятия:${bankData[typeOfCash].min}.`);
     else console.log(`Вот Ваши денежки ${countOfCash} ${typeOfCash} ${bankData[typeOfCash].img}.`);
 }
 
@@ -67,9 +67,9 @@ function getCash(userData, bankData) {
             }
         };
 
-getMoney(userData)
+getMoney(userData, bankData)
     .then(
         (userData) => checkBalance(userData),
-        (userData) => getCash(userData, bankData)
+        (allData) => getCash(allData.userData, allData.bankData)
     )
     .then(() => console.log('Спасибо, хорошего дня 😊'));
