@@ -67,14 +67,9 @@ function getCash(userData, bankData) {
             }
         };
 
-
 getMoney(userData)
     .then(
-        (userData) => {
-            checkBalance(userData);
-        },
-        (userData) => {
-            getCash(userData, bankData);
-        }
+        (userData) => checkBalance(userData),
+        (userData) => getCash(userData, bankData)
     )
     .then(() => console.log('Спасибо, хорошего дня 😊'));
