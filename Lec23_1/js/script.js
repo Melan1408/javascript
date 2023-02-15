@@ -43,14 +43,14 @@ function renderError(div) {
     div.append(errorImg);
 }
 
-form.addEventListener('submit', async(e)=> {
+form.addEventListener('submit', async(e) => {
     e.preventDefault();
     try {
         const data = await controller(`${API}/${input.value}`);
         if(data.message === 'Not Found') renderError(divUser);
         else  renderUser(data, divUser);
     }
-    catch (error) {
+    catch(error) {
         console.log(error);
     }
 })
