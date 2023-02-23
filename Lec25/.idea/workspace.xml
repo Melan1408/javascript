@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/favorite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/heroBack.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/notFavorite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec23_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec23_1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/HomeWork24_47" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -59,6 +62,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\javascript\Lec25\images" />
       <recent name="F:\javascript\Lec20_1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -155,6 +159,7 @@
       <workItem from="1676479982143" duration="744000" />
       <workItem from="1676483247730" duration="21000" />
       <workItem from="1676626415917" duration="75000" />
+      <workItem from="1677155545050" duration="14919000" />
     </task>
     <servers />
   </component>

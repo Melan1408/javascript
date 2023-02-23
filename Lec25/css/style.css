@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+body {
+    background-image: url(../images/heroBack.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.div-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    width: fit-content;
+    max-width: 1000px;
+}
+
+.form-container {
+    padding: 30px;
+    background: cadetblue;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2{
+    display: none;
+    margin-top: 10px;
+}
+.display {
+    display: block;
+    transition: all 1s ease;
+}
+
+.title{
+    font-size: 24px;
+    line-height: 18px;
+    background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+input{
+    background: #FFFFFF;
+    padding: 5px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.form-btn {
+    padding: 8px 15px;
+    height: 36px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+}
+
+.form-btn p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+
+button:hover p{
+    color: black;
+}
+
+.delete-btn {
+    padding: 8px 15px;
+    height: 36px;
+    background: #24A3FF;
+    box-shadow: 0px 0px 20px rgba(36, 163, 255, 0.5);
+    border-radius: 12px;
+}
+
+.delete-btn p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    transition-duration: 0.5s;
+}
+
+delete-btn:hover p {
+    color: black;
+}
+
+
+.favorite-btn {
+    background-color: inherit;
+    border: none;
+}
+
+.favorite-img {
+    cursor: pointer;
+    width: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroes-container {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 15px;
+}
+
+.heroCard {
+    padding: 30px;
+    background: darkcyan;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.heroCard p{
+    margin-bottom: 10px;
+}
