@@ -134,7 +134,8 @@ document.querySelector('form').addEventListener('submit', async e => {
     const name = document.getElementById('heroName').value;
     const universe = document.getElementById('heroUniverse').value;
     const favorite = document.querySelector('.favorite-btn').getAttribute('favorite');
-
+    const submitBtn = document.querySelector('.form-btn');
+    submitBtn.disabled = true;
     const index = heroes.findIndex(hero => hero.name === name);
     if (index === -1) {
         const heroInfo = await controller('POST', 'heroes', {
@@ -149,6 +150,7 @@ document.querySelector('form').addEventListener('submit', async e => {
         document.querySelector('h2').classList.remove('display');
     }
     else document.querySelector('h2').classList.add('display');
+    submitBtn.disabled = false;
 })
 
 const btnFavorite = document.querySelector('form .favorite-btn');
