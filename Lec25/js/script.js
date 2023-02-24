@@ -1,5 +1,6 @@
 const API = 'https://63f75f3fe40e087c958d3bcf.mockapi.io';
 const heroes = [];
+
 class Hero {
     constructor(id, name, comics, favorite) {
         this.id = id;
@@ -36,14 +37,7 @@ class Hero {
         divFavorite.classList.add('div-flex');
 
         btnFavorite.addEventListener('click', async () => {
-            if(this.favorite === 'true') {
-                this.favorite = 'false';
-                imgFavorite.src = 'images/notFavorite.png';
-            }
-            else {
-                this.favorite = 'true';
-                imgFavorite.src = 'images/favorite.png';
-            }
+            changeFavorite(this.favorite, imgFavorite, this);
 
             await controller('PUT', `heroes/${this.id}`, {
                 name: this.name,
@@ -52,14 +46,7 @@ class Hero {
             });
         });
 
-        btnDelete.addEventListener('click', async () => {
-            await controller('DELETE', `heroes/${this.id}`);
-            card.remove();
-            const index = heroes.findIndex(hero => hero.name === this.name);
-            if (index !== -1) {
-                heroes.splice(index, 1);
-            }
-        });
+        btnDelete.addEventListener('click', async () => await this.delete(card));
 
         btnFavorite.append(imgFavorite);
         divFavorite.append(heroFavorite);
@@ -72,7 +59,15 @@ class Hero {
         card.append(btnDelete);
 
         heroesContainer.prepend(card);
+    }
 
+    async delete(card) {
+        await controller('DELETE', `heroes/${this.id}`);
+        card.remove();
+        const index = heroes.findIndex(hero => hero.name === this.name);
+        if (index !== -1) {
+            heroes.splice(index, 1);
+        }
     }
 }
 
@@ -87,10 +82,14 @@ async function controller(method, action, body) {
 
     if (body) params.body = JSON.stringify(body);
 
-    const response = await fetch(URL, params);
-    const data = await response.json();
-
-    return data;
+    try {
+        const response = await fetch(URL, params);
+        const data = await response.json();
+        return data;
+    }
+    catch (error) {
+        console.log(error);
+    }
 }
 
 async function getUniverses() {
@@ -114,6 +113,19 @@ async function getHeroes() {
         hero.render();
         heroes.push(hero);
     })
+}
+
+function changeFavorite(favorite, imgFavorite, favoriteParams) {
+    if(favorite === 'true') {
+        if( favoriteParams.favorite) favoriteParams.favorite = 'false';
+        else  btnFavorite.setAttribute('favorite', 'false');
+        imgFavorite.src = 'images/notFavorite.png';
+    }
+    else {
+        if( favoriteParams.favorite) favoriteParams.favorite = 'true';
+        else  btnFavorite.setAttribute('favorite', 'true');
+        imgFavorite.src = 'images/favorite.png';
+    }
 }
 
 document.querySelector('form').addEventListener('submit', async e => {
@@ -144,13 +156,7 @@ btnFavorite.addEventListener('click', async e => {
     const favorite = btnFavorite.getAttribute('favorite');
     const imgFavorite = document.querySelector('.favorite-img');
 
-    if (favorite === 'false') {
-        btnFavorite.setAttribute('favorite', 'true');
-        imgFavorite.src = 'images/favorite.png';
-    } else {
-        btnFavorite.setAttribute('favorite', 'false');
-        imgFavorite.src = 'images/notFavorite.png';
-    }
+    changeFavorite(favorite, imgFavorite, btnFavorite);
 })
 
 getUniverses();
