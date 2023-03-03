@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lec25/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec25/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lec27_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec27_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +169,7 @@
       <workItem from="1677331956960" duration="288000" />
       <workItem from="1677483539141" duration="89000" />
       <workItem from="1677682912081" duration="2002000" />
-      <workItem from="1677852829657" duration="5466000" />
+      <workItem from="1677852829657" duration="5863000" />
     </task>
     <servers />
   </component>

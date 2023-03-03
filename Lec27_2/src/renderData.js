@@ -1,4 +1,4 @@
-export  function  renderUser (data) {
+export function renderUser(data) {
     const usersContainer = document.querySelector('.users-container');
     data.forEach(user => {
         const { name, age, email, country, company, birthday } = user;
