@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+}
+
+.users-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.userCard {
+    padding: 30px;
+    background: darkcyan;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.userCard p{
+    margin-bottom: 10px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    width: fit-content;
+    max-width: 1000px;
+}

@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e291788c-b92b-49ac-9288-419a72b47c17" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lec27_2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lec27_2/src/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lec27_2/src/renderData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lec27_2/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lec27_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lec27_1/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/HomeWork25_48" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -166,6 +171,7 @@
       <workItem from="1677231891111" duration="5124000" />
       <workItem from="1677331956960" duration="288000" />
       <workItem from="1677483539141" duration="89000" />
+      <workItem from="1677857840358" duration="822000" />
     </task>
     <servers />
   </component>
